@@ -1,0 +1,32 @@
+Explanation:
+
+1. The program starts with the definition of a 'Person' class, 
+which contains the required fields for each person in the dataset. 
+These fields are name, date of birth, age, marital status, and number of children.
+
+2. In the 'main' function, a list of 'Person' objects is created to store the information of at least 10 people.
+
+3. The user is then presented with a menu of options to sort and filter the information. The options are:
+
+   - Show all people
+   - Sort by age
+   - Sort by last name
+   - Show people with a specific number of children
+   - Exit: If the user selects this option, the program exits the loop and the program terminates.
+   - The user inputs an option number and the program performs the selected action by calling the corresponding function.
+
+4. The user inputs an option number and the program performs the selected action by calling the corresponding function.
+
+5. If the user selects option 1, the 'draw_table' function is called with the original list of people to display all the information.
+
+6. If the user selects option 2, the 'sort_by_age' function is called to sort the list of people by their age, and the 'draw_table' function is called to display the sorted information.
+
+7. If the user selects option 3, the 'sort_by_last_name' function is called to sort the list of people by their last name, and the 'draw_table' function is called to display the sorted information.
+
+8. If the user selects option 4, the program prompts the user to enter the number of children and calls the 'show_people_with_children' function with the list of people and the entered number of children. This function filters the list to only show the people who have the entered number of children, and the 'draw_table' function is called to display the filtered information.
+
+9. If the user selects option 5, the program exits.
+
+10. If the user enters an invalid option number, an error message is displayed, and the user is prompted to select a number between 1 and 5.
+
+11. The program continues to loop and present the menu options until the user selects option 5 to exit.
